@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Amniga Muqdisho</title>
+  <style>
+    body {
+      margin: 0; font-family: Arial, sans-serif; background-color: #001f3f; color: white;
+      display: flex; flex-direction: column; min-height: 100vh;
+    }
+    nav {
+      background-color: #003366;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+    nav ul {
+      list-style: none; display: flex; justify-content: center; flex-wrap: wrap; margin: 0; padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none; color: white; font-weight: bold; padding: 8px 12px; border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav ul li a:hover, nav ul li a.active {
+      background-color: #00bfff; color: black;
+    }
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+    form {
+      background-color: rgba(0,0,0,0.7);
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      width: 320px;
+    }
+    h1 {
+      text-align: center;
+      color: #00bfff;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      width: 100%;
+      background-color: #0074D9;
+      color: white;
+      font-weight: bold;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      
+      <li><a href="index.html">Home</a></li>
+       <li><a href="login.html" class="active">login</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="report.html">report</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="contact us .html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <form action="#" method="post">
+      <h1>Login</h1>
+      <label for="username">Magaca Isticmaalaha:</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Furaha Sirta ah:</label>
+      <input type="password" id="password" name="password" required />
+
+      <input type="submit" value="Soo Gal" />
+    </form>
+  </div>
+    <footer>
+  
+  <p class="disclaimer-text">© 2025 Boggan iyo macluumaadkiisa waxaa loogu talagalay ujeeddooyin tababar iyo practice ah oo keliya.  
+      Looma adeegsan karo ujeeddooyin rasmi ah, sharci, ama amni dhab ah.
+.</p>
+</p>
+</footer>
+
+<style>
+  .disclaimer-text {
+    font-size: 0.8em;
+    color: #ffcc00;
+    margin-top: 5px;
+  }
+</style>
+
+</body>
+</html>
